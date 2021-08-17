@@ -28,11 +28,9 @@ public class Fachada {
 		
 		if (_vUser == null) {
 			JOptionPane.showMessageDialog(null, "Falha no login!");
-		
 		}
 		else {
-			JOptionPane.showMessageDialog(null, "Bem vindo,  " + user.getNome().split(" ")[0] + "!");
-					
+			JOptionPane.showMessageDialog(null, "Bem vindo,  " + user.getNome().split(" ")[0] + "!");	
 		}
 	}
 	
@@ -40,6 +38,36 @@ public class Fachada {
 		
 	}
 	
+	public void recuperaTodasDisciciplinas() {
+		
+	}
 	
+	public void atualizaNomeDisciplina() {
+		
+	}
 	
+	public void atualizaNotaDisciplina() {
+		
+	}
+	
+	public void adicionaComentarioDisciplina() {
+		
+	}
+	
+    public void removeComentario() {
+		
+	}
+	
+    public void removeDisciplina() {
+		
+	}
+    
+    public void recuperaDisciplina() {
+		
+	}
+    
+    public void recuperaDisciciplinasNotas() {
+		
+	}
+    
 }
